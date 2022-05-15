@@ -17,7 +17,7 @@ contract Membership  is ERC1155 {
   uint256 public TokenCounter;
   address private owner;
 
-  constructor() ERC1155("https://") {
+  constructor() ERC1155("https://www.drums-alive.com/wp-content/uploads/2019/11/Membership.jpeg") {
     TokenCounter = 0;
     owner = msg.sender;
   }

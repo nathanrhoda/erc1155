@@ -1,7 +1,7 @@
 require('dotenv').config();
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
-var privateKey = process.env["ACCOUNT"];
+var privateKey = process.env["PRIVATE_KEY"];
 var url = process.env["URL"];
 var rink_project_id = process.env["PROJECTID"];
 module.exports = {
